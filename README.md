@@ -1,6 +1,6 @@
 # zoom ultrawide for plex 
 
-Simple browser extension that adds the ability to zoom the fullscreen view for 21:9 (aka 2.35:1 Cinemascope) aspect ratio movies.
+Simple browser extension that adds the ability to zoom the fullscreen view to 21:9 (aka 2.35:1 Cinemascope).
 
 ![alt tag](https://raw.githubusercontent.com/conceptualspace/ultrawide-zoom-for-plex/master/plex-logo-flat-small.png)
 ![alt tag](https://raw.githubusercontent.com/conceptualspace/ultrawide-zoom-for-plex/master/screenshot.jpg)
