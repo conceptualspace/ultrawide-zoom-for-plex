@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "zoom for plex",
+  "description": "adds fullscreen support for 21:9 films",
+  "version": "1.0",
+  "author": "dev@conceptualspace.net",
+  "permissions": [
+    "*://app.plex.tv/*",
+    "*://localhost/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://app.plex.tv/*", "*://localhost/*"],
+      "js": ["jquery-3.3.1.min.js", "arrive.min.js", "content_script.js"],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "img/icon.png",
+    "32": "img/icon.png",
+    "48": "img/icon.png",
+    "128": "img/icon.png"
+  },
+  "web_accessible_resources": ["img/icon219.svg"]
+}
