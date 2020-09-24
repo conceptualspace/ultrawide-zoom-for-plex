@@ -1,5 +1,7 @@
 # ultrawide zoom for plex 
 
+## Note: this extension has been superseded by [Enhance-O-Tron for Plex*](https://github.com/conceptualspace/enhance-o-tron-for-plex)
+
 Simple browser extension that adds the ability to zoom fullscreen to 21:9 (aka 2.35:1 Cinemascope).
 
 ![alt tag](https://raw.githubusercontent.com/conceptualspace/ultrawide-zoom-for-plex/master/plex-logo-flat-small.png)
