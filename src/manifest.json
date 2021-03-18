@@ -3,12 +3,15 @@
 
   "name": "zoom for plex",
   "description": "adds fullscreen support for 21:9 films",
-  "version": "1.0",
+  "version": "1.1",
   "author": "dev@conceptualspace.net",
   "permissions": [
     "*://app.plex.tv/*",
     "*://localhost/*"
   ],
+  "background": {
+    "scripts": ["background.js"]
+  },
   "content_scripts": [
     {
       "matches": ["*://app.plex.tv/*", "*://localhost/*"],
